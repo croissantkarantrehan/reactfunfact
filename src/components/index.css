@@ -1,0 +1,56 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    background-color:#21222A;
+    height:90px;
+    padding:30px 25px;
+}
+*{
+    box-sizing:border-box;
+}
+.Reactfact,.reactcourse{
+    margin:0;
+}
+.Reactfact{
+margin-right: auto;
+color:rgb(57, 230, 230);
+font-size: 43px;
+}
+.image{
+    height:60px;
+    margin-right:7px;
+}
+.reactcourse {
+color: aliceblue;
+font-weight: 600;
+font-size: 32px;
+}
+body{
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+    background-color:#282D35;
+
+}
+main{
+padding: 57px 27px;
+color:aliceblue;
+background-size: 350px;
+background-image: url(./logo512.png);
+background-repeat: no-repeat;
+background-position-x:800px;
+background-position-y: 50px;
+font-size: x-large;
+}
+.title{
+    margin-top: 0px;
+}
+.mainfacts{
+    margin-top:10px;
+    letter-spacing: 40;
+    font-size: larger;
+}
+.mainfacts >li::marker{
+font-size: 2rem;
+color :#61DAFB;
+}
+
